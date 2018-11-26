@@ -23,12 +23,8 @@ At its core, the FTGO application is quite simple. Consumers use the FTGO web- s
 
 The app was becoming a big ball of mud and was written using some increasingly obsolete frameworks. The FTGO application is exhibiting all the symptoms of monolithic hell. The FTGO application has a hexagonal architecture.
 
-![Benefits of a monolith](https://imgur.com/a/rEqp3GQ)
-
-		 	 	 		
-			
-				
-					
+![Benefits of a monolith](http://i.imgur.com/mo0AFmh.png)
+									
 The benefits of the monolithic architecture
 * Simple to develop tooling wise
 * Easy to make radical changes to the application
@@ -47,6 +43,7 @@ Why Monoliths suck
 > “Interestingly, software architecture has very little to do with functional requirements. You can implement a set of use cases—an application’s functional requirements—with any architecture.”
 
 -ilities
+
 Maintainability, extensibility, and testability are directly affected by architecture decisions.
 
 Scalability cube
