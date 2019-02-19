@@ -50,9 +50,9 @@ Scalability cube
 
 ![Scalability cube](https://i.imgur.com/WQLy3oZ.png)
 
-X Scaling: Throw more servers at it. AKA servers are cheaper than developers. Load Balancer to find a server from a pool
-Z Scaling: Separate resources by type, id, or some identifier. Previously used on IDE v2 for directing students to different servers. Led to chaos when a server was moved out of rotation.
-Y Scaling: In the extreme, think AWS Lambdas.
+* X Scaling: Throw more servers at it. AKA servers are cheaper than developers. Load Balancer to find a server from a pool
+* Z Scaling: Separate resources by type, id, or some identifier. Previously used on IDE v2 for directing students to different servers. Led to chaos when a server was moved out of rotation.
+* Y Scaling: In the extreme, think AWS Lambdas.
 
 ![y-axis](https://i.imgur.com/VoevUyD.png)
 
@@ -85,9 +85,11 @@ Why microservices suck, or here’s why you should keep reading this book.
 * Deciding when to make the move is hard.
 
 Process and organization		
-**Success inevitably means that the engineering team will grow. On the one hand, that’s a good thing because more developers can get more done. The trouble with large teams is, as Fred Brooks wrote in The Mythical Man-Month, the communication over- head of a team of size N is O(N 2). If the team gets too large, it will become inefficient, due to the communication overhead. Imagine, for example, trying to do a daily standup with 20 people. Strive for 8-12 people.**
+**Success inevitably means that the engineering team will grow. On the one hand, that’s a good thing because more developers can get more done. The trouble with large teams is, as Fred Brooks wrote in The Mythical Man-Month, the communication over- head of a team of size N is O(N 2). If the team gets too large, it will become inefficient, due to the communication overhead. Imagine, for example, trying to do a daily standup with 20 people. Strive for 8-12 people.** (🍕🍕-size teams)
 
-Change is hard, people are emotional. Whatayagonnado? ¯\\\_(ツ)\_/¯
+Patterns everywhere! Patterns will be descibed in more detail in further chapters.
+
+Change is hard, people are emotional. Whatayagonnado? ¯\\\_(ツ)\_/¯ Seems to include many stages of grief.
 
 ### Chapter 2
 This Chapter Covers
@@ -110,7 +112,7 @@ Chapter Summary
 * Implementation View - In Ruby it’s the source code, elixir, an escript, or runnable code directory
 * Process View -  Local processes running while your app runs. Phoeyonce has Docker + the Beam
 * Deployment View - Where on your infrastructure your code is running.
-* +  Scenaros - Describe the collaboration between parts in each view.
+* +  Scenarios - Describe the collaboration between parts in each view.
 
 Architecture Style
 **An architectural style, then, defines a family of such systems in terms of a pattern of structural organization. More specifically, an architectural style determines the vocabulary of components and connectors that can be used in instances of that style, together with a set of constraints on how they can be combined.**
@@ -169,4 +171,6 @@ Sometimes our users are leads, students, admins, instructors, coaches.
 * As far as the API Gateway goes, could we or should we imagine a single unified API that adheres to certain standards, maybe something that functions more like a public API?
 * How should we think about ownership of microservices? I’ve experienced situations where teams roll off and then no one actively maintains or develops on them, and yet they sometimes need work.
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/microservices-patterns-chapter-1-2'>Microservices Patterns - Chapter 1 & 2</a> on Learn.co and start learning to code for free.</p>
+* How are people liking this book compared to FunctionalJS/POODR? Feels more academic?
+* Of the monolith pros/cons, which ones remind you the most of Ironboard? Which ones feel like we should mitigate the most?
+* Ideas of how to decompose Ironboard into domains or services? Where would you draw lines?
